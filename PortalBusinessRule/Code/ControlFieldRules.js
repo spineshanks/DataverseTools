@@ -3036,7 +3036,6 @@
     }
 };
 var TriggerPageLoad = function (processName) {
-    //var processName = "ceqrlongform";
     console.log("ProcessName->" + processName);
     Common.BusinessRule.onLoad(processName);
 };
